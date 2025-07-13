@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    body{background-color: black;}
+      .po{
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          background-color: black;
+          width: 300px;
+          height: 300px;
+      }
+      .po:hover{
+        background-color: orange;
+      }
+      .moving-text{
+        display: flex;
+             flex-wrap: wrap;
+             align-items: center;
+             justify-content: center;
+             overflow-y: hidden;
+             height: 200px;
+             background-color: white;
+      }
+      .moving-text  p{
+        animation: moving 10s linear infinite;
+        animation-delay: 0s;
+      }
+     @keyframes moving{
+      0%{padding-top:300px;overflow-y: hidden}
+      25%{padding-top: 200px;}
+      50%{padding-top: 0px;}
+      75%{margin-top:-200px;}
+      100%{margin-top:-300px}
+     }
+     /* .divset6{
+      background-color: white;
+      height: 200px;
+     } */
+      .span-set{
+        color: orange;
+        font-size: 20px;
+        font-weight: 800;  
+      }
+      h1{
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="po"><img src="dental-inst.png"></div>
+    <div>
+      <div class="bot1-1">
+        <span style="display: flex;flex-direction: row;gap: 20px;">
+          <img src="mail.png" width="30px" height="auto"
+            style="margin-top: 30px;">
+          <p> ask us your inquiry</p><br>
+        </span>
+        <h2 style="margin-top: -10px ; margin-left:50px;">pakistan</h1>
+      </div>
+    </div>
+    <br>
+    <div class="divset6">
+      <div class="moving-text">
+        <p>
+          ajsdalkjdpoasldijdlksjjsdklfjsklfhkja
+          dhfkjdhfkhkjfhkjhfkshksjsflkjsaklfjerkfhkjerfkjhe
+          kjfhekrjhfkjdhkfjehrojfkejrhfkdkjfjwoeferpw,emwpoe;wejwfomdfkn fkfnw
+          kj
+          fnflilk s foioif fposfn soifaj sn a fhe,mafnsif,mhsfn ifla bf98efne
+          foias jfajf oafjiuhajfiuahlf aniuf lfah shfonfuifauyhf 08ajfdi ga j
+          hsfasfn afjw
+        </p>
+      </div>
+    </div>
+
+    <div>
+    <h1><span class="span-set">|</span>passjdha</h1>
+    </div>
+  </body>
+</html>
